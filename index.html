@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe App</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="allrecipies.css" rel="stylesheet">
+</head>
+<body>
+    <div id="app_container">
+        <!-- nav search bar -->
+        <nav>
+            <img id="menu" src="https://img.icons8.com/material-outlined/24/000000/menu--v1.png"/>
+            <img src="logo.png">
+            <div id="searchtoolandbar">
+                <input id="searchbar" type="search">
+            <!-- <label for="searchbar">     -->
+                <button id="searchtool"><span class="material-icons">search</span></button>
+            <!-- </label> -->
+            </div>
+        </nav>
+        <!-- menu category sliding bar -->
+        <div id="categ_bar">
+            <div class="flex_menudish">
+                <img class="categ_barMenu" src="hot dogs.cms">
+                <p>hot dogs</p>
+            </div>
+            <div class="flex_menudish">
+                <img class="categ_barMenu" src="ice cream.jpg">
+                <p>ice cream</p>
+            </div>
+            <div class="flex_menudish">
+                <img class="categ_barMenu" src="download.jfif">
+                <p>momos</p>
+            </div>
+            <div class="flex_menudish">
+                <img class="categ_barMenu" src="chicken nuggets.jfif">
+                <p>nuggets</p>
+            </div>
+            <div class="flex_menudish">
+                <img class="categ_barMenu" src="chowmein.jfif">
+                <p>chowmein</p>
+            </div>
+            <div class="flex_menudish">
+                <img class="categ_barMenu" src="download.jfif">
+                <p>momos</p>
+            </div>
+        </div>
+        <!-- user block -->
+        <div id="user">
+            <span id="personalize">personalize</span>
+            <span class="material-icons" id="close">close</span>
+            <p>your recomendations</p>
+            <button id="userPersonalize_button">start personalizing</button>
+        </div>
+        <!-- dish 2 -->
+        <div id="dish2">
+            <div id="imgContainer">
+                <span id="label"><span id="hngr">HNGR red sausage</span > Hot dog</span>
+            </div>
+            <div id="ttl_container">
+                <p id="ttl">copycat chipockle chicken</p>
+                <button id="starButton1">
+                    <span id="star" class="material-icons">star_outline</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="allrecipies.js"></script>
+</body>
+</html>
+
+<!-- NOTES:::>
+    
+<figure>
+    <img id="dish2_img" src="download.jfif">
+    <figcaption>nainitali momos</figcaption>
+</figure> -->
+<!-- <img id="dish2_img" title="with HNGR red sausage" src="hot dog.jfif"> -->
